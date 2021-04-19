@@ -146,6 +146,10 @@ header {
     font-size: 40px;
     margin: 30px 10px;
     cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+.card .cover i:hover {
+    color: #fa435b;
 }
 .card:hover .cover {
     opacity: 1
