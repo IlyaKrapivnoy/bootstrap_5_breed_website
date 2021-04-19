@@ -4,10 +4,6 @@ body {
 header {
     height: 100vh;
     width: 100%;
-    /* background-image: url('/img/slider-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
 }
 .navbar {
     border-bottom: 1px solid #000;
@@ -25,25 +21,88 @@ header {
     font-weight: 500;
     letter-spacing: 3px;
 }
+.nav-link:hover,
+.nav-link:focus,
 .nav-link.active {
     color: #fff!important;   
+}
+.dropdown-menu {
+    color: rgb(179, 177, 177)!important;
+    background-color: #000;
+}
+.dropdown-item {
+    color: rgb(179, 177, 177)!important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+/*Active drop menu color*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color:rgb(87, 85, 85) !important;
+    color:#d0b482;
+}
+
+/*hover menu color*/
+.dropdown-menu> li> a:hover{
+    background-color:rgb(87, 85, 85) !important;
+}
+
+/*active menu*/
+.navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle {
+    background-color:rgb(87, 85, 85) !important;
 }
 /* carousel */
 .carousel .carousel-item {
     height: 100vh;
 }
-
 .carousel-caption {
     top: calc(50% - 65px);
 }
-
 .carousel-caption h5 {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 800;
 }
-
 .carousel-caption p {
     font-size: 20px;
     font-weight: 400;
 }
+
+/* buttons  */
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.btn-custom {
+    color: #fff!important;
+}
+.btn-outline-light {
+    border: 2px solid #fff;
+}
+.carousel-indicators  {
+    text-align: center; 
+  }
+.carousel-indicators button  { 
+    width: 10px!important;
+    height: 10px!important;
+    border: 2.5px solid rgb(141, 136, 136)!important;
+    border-radius: 100%!important;
+}
+
+
+
+
+@media (max-width: 992px) { 
+     
+}
+@media (max-width: 768px) { 
+    .carousel-indicators  {
+        visibility: hidden;
+    }
+}
+@media (max-width: 576px) {
+     
+}
+ 
