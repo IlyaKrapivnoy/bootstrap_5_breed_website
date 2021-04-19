@@ -7,7 +7,7 @@ header {
 }
 .navbar {
     border-bottom: 1px solid #000;
-    background: rgba(0,0,0,.4)!important;
+    background: rgba(0,0,0,.6)!important;
     text-transform: uppercase;
 }
 .navbar-brand {
@@ -91,8 +91,39 @@ header {
     border-radius: 100%!important;
 }
 
-
-
+/* story section  */
+.text-field h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.text-field span {
+    font-size: 14px;
+    color: #ffc107;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.dog-pic img {
+    max-width: 100%;
+    height: auto;
+}
+.story-text {
+    color: #868e96;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.custom-link {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+}
+.custom-link:after {
+    content: '\003E';
+    position:absolute;
+    right: -12px;
+    top: -4px;
+}
 
 @media (max-width: 992px) { 
      
