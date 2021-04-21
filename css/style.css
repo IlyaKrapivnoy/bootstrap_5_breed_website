@@ -309,7 +309,8 @@ ul.footer-list li a:hover:before {
 
 /* ABOUT PAGE */
 /* mission */
-.mission-pic img {
+.mission-pic img,
+.history-pic img {
     width: 100%;
 }
 
