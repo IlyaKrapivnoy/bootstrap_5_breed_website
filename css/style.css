@@ -327,6 +327,15 @@ ul.footer-list li a:hover:before {
 .largest-btn-ever:hover {
     background-color: #ffc107;
 }
+/* form */
+.form {
+    background-color: #262626;
+    border-bottom: 1px dashed #fff;
+}
+.info-block {
+    color: #eee;
+}
+
 
 @media (max-width: 992px) { 
      
