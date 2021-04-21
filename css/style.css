@@ -54,8 +54,9 @@ header {
     background-color:rgb(87, 85, 85) !important;
 }
 /* carousel */
-.carousel .carousel-item {
+.carousel .carousel-item img {
     height: 100vh;
+    object-fit: cover;
 }
 .carousel-caption {
     top: calc(50% - 65px);
