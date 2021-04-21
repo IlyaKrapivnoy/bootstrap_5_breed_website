@@ -168,6 +168,9 @@ header {
 .no-padding {
     padding: 0;
 }
+.no-margin {
+    margin: 0;
+}
 .dog-pic {
     position: relative;
 }
@@ -252,6 +255,55 @@ header {
 .card.body {
     background-color: transparent;
     border: none;
+}
+/* footer  */
+footer {
+    background-color: #262626;
+    color: rgba(255, 255, 255, 0.5)
+}
+.social svg {
+    margin-right: 20px;
+    transition: fill .2s ease;
+    cursor: pointer;
+}
+.social svg:hover {
+    fill: rgb(219, 244, 253);
+}
+h5.footer-text {
+    color: rgb(219, 244, 253)!important;
+}
+p.footer-text {
+    font-size: 13px;
+}
+span.footer-text {
+    color: #fff;
+    font-size: 13px;
+}
+ul.footer-list li {
+    list-style-type: none;
+    padding: 0 0 15px 0;
+}
+ul.footer-list li a {
+    text-decoration: none;
+    color: #ffc107;
+    list-style: none;
+    list-style-type: none;
+    font-size: 13px;
+    transition: color .2s ease;
+    position: relative;
+}
+ul.footer-list li a:hover {
+     color: rgb(219, 244, 253);
+}
+ul.footer-list li a:before {
+    content: '\25D0';
+    position: absolute;
+    top: -2px;
+    left: -27px;
+    opacity: 0;
+}
+ul.footer-list li a:hover:before {
+    opacity: 1;
 }
 
 @media (max-width: 992px) { 
